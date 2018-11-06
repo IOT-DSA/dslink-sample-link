@@ -1,0 +1,4 @@
+name: example_dslink
+dependencies:
+  dslink:
+    git: git://github.com/IOT-DSA/sdk-dslink-dart.git
