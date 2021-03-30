@@ -1,16 +1,17 @@
-# Dart DSLink Examples
+# Dart DSLink Sample
 
-Two small examples of a Requester and Responder DSLink written in Dart.
+This DSLink is based on the Example DSLink. This link is used to demonstrate how to write a
+DSLink which does not use an existing engine supported by DGLux Server. This sample uses only
+a bash script. A full sample would provide both a bash script, and a .bat script for windows platform.
 
 ## Get it
 
 ```
-git clone https://github.com/IOT-DSA/dslink-dart-examples.git
+git clone https://github.com/IOT-DSA/dslink-sample-link.git
 ```
 
 ## Run it
 
 ```
-pub get
-dart bin\responder.dart
+bin/run.sh
 ```

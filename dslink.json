@@ -1,0 +1,22 @@
+{
+  "name": "dslink-sample-link",
+  "version": "0.0.1",
+  "description": "Sample Bash Link",
+  "main": "bin/run.sh",
+  "configs": {
+    "broker": {
+      "type": "url"
+    },
+    "name": {
+      "type": "string",
+      "default": "sample-link"
+    },
+    "log": {
+      "type": "enum[info,off,warning,severe,fine,finer,finest,all]",
+      "default": "info"
+    },
+    "token": {
+      "type": "string"
+    }
+  }
+}
